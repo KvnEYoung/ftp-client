@@ -2,7 +2,7 @@
 
 ## Install Dot Net Core
 
-You're going to need [https://www.microsoft.com/net/learn/get-started/](Dot Net Core) to run
+You're going to need [Dot Net Core](https://www.microsoft.com/net/learn/get-started/) to run
 the program
 
 ## Clone the repository
@@ -15,6 +15,6 @@ the program
 
 ## SFTP Library
 
-The library [https://github.com/sshnet/SSH.NET](homepage)
+The library [homepage](https://github.com/sshnet/SSH.NET)
 
-Additional [https://stackoverflow.com/questions/10657377/achieving-ftp-sftp-without-3rd-party-dll-with-ftpwebrequest-if-possible-in-c-sha](examples)
+Additional [examples](https://stackoverflow.com/questions/10657377/achieving-ftp-sftp-without-3rd-party-dll-with-ftpwebrequest-if-possible-in-c-sha)
