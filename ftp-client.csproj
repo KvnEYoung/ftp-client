@@ -6,4 +6,8 @@
     <RootNamespace>ftp_client</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SSH.NET" Version="2016.1.0" />
+  </ItemGroup>
+
 </Project>
