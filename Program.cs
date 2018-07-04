@@ -40,10 +40,15 @@ namespace ftp_client
       Console.Write("Password: ");
       var password = ReadPassword();
 
-      var client = new SftpClient(host, 22, username, password);
-      client.Connect();
+      using (var client = new SftpClient(host, 22, username, password))
+      {
+        client.Connect();
 
-      Console.Write("Connected!");
+        foreach (var file in client.ListDirectory("."))
+        {
+          Console.WriteLine(file.FullName);
+        }
+      }
     }
   }
 }
